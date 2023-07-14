@@ -10,6 +10,7 @@ def scramble(sentence):
     return ' '.join(words)
 text= '''Shuffle words in this sentence.
  Python has a limitless number of packages used in everyday programming. 
+ 当数组边界超过最大限定，将会抛出异常
 '''
 new = scramble(text)
 print(new)
