@@ -1,6 +1,7 @@
 import random
 def scramble(sentence):
     words = []
+    cast = []
     for word in  sentence.split():
         if len(word) > 1:
             words.append(word[0]
